@@ -31,5 +31,6 @@ public class EntityAIAgeBaby extends EntityAIBase {
 
         villager.world.spawnEntity(child);
         villager.set(EntityVillagerMCA.HAS_BABY, false);
+        villager.set(EntityVillagerMCA.BABY_AGE, 0);
     }
 }
